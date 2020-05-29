@@ -37,7 +37,7 @@ for i in range(len(class_name)):
 cmap = np.array(plt.cm.get_cmap('Paired').colors)
 cmap_rgb: list = np.multiply(cmap, 255).astype(np.int32).tolist()
 
-# 결과 이미지를 저장하는 코드
+# groundtruth를 이미지로 저장하는 코드
 os.makedirs(args.save_folder, exist_ok=True)
 for _, target in tqdm.tqdm(dataloader, desc='Saving images'):
     # 현재 파일의 이름과 경로를 생성
@@ -71,6 +71,6 @@ for _, target in tqdm.tqdm(dataloader, desc='Saving images'):
         draw.rectangle(((x1, y1), (x1 + text_width, y1 + text_height)), fill=color)
         draw.text((x1, y1), text, fill=(0, 0, 0), font=font)
 
-    # 결과 이미지 저장
+    # groundtruth 이미지 저장
     image.save(os.path.join(args.save_folder, filename))
     image.close()
