@@ -26,12 +26,12 @@ dataset = torchvision.datasets.VOCDetection(root=args.dataset,
                                             transform=torchvision.transforms.ToTensor())
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0)
 
-# 클래스 정의 가져오기
+# 클래스 정의와 인덱스 생성
 classes = {}
-with open('datasets/voc_classes.txt', "r") as f:
-    class_name = f.readlines()
+class_name = ["aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
+              "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
 for i in range(len(class_name)):
-    classes[class_name[i].strip()] = i
+    classes[class_name[i]] = i
 
 # bounding box colormap 설정
 cmap = np.array(plt.cm.get_cmap('Paired').colors)
