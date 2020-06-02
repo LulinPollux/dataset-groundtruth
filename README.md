@@ -81,8 +81,6 @@ PyTorch 1.5.0
 
 ## License
 
-라이센스를 명시하고 디렉터리에 `LICENSE`를 포함시킨다.
-
 MIT License © Lulin
 
 You can find more information in `LICENSE`.
