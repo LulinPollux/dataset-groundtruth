@@ -57,15 +57,19 @@
 
 ## API, Framework
 
-PyTorch 1.5.0
+- PyTorch 1.5.0
+- Matplotlib
+- Python 3.7.7
+- Tqdm
 
 ## Develop environment
 
+- H/W develop environment
+  - Hardware independent
 - S/W develop environment
-  - PyTorch 1.5.0
-  - Matplotlib
-  - Python 3.7.7
-  - Tqdm
+  - Ubuntu 20.04 LTS (Cross platform)
+  - Windows10 20H1 (Cross platform)
+  - Miniconda
 - Setting up develop environment
   1. Anaconda 또는 Miniconda가 설치되어 있는지 확인하세요.
   2. 새 가상환경을 만들고 위의 라이브러리를 설치하세요.
