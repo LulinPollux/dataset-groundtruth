@@ -22,7 +22,14 @@
 
 1. Anaconda 또는 Miniconda가 설치되어 있는지 확인하세요.
 
-2. 새 가상환경을 만들고 위의 라이브러리를 설치하세요.
+2. 새 가상환경을 만들고 아래의 개발 환경 섹션에서 언급한 라이브러리를 설치하세요.
+
+   - ```python
+     conda install python=3.7 matplotlib tqdm
+     ```
+
+   - https://pytorch.org/get-started/locally/
+
 3. 리포지토리를 클론, 포크하거나 압축파일로 코드를 다운로드하세요.
 
 ## How to Use, Example
