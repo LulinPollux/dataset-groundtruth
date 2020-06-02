@@ -37,9 +37,9 @@
 
 3. 결과 이미지가 저장된 폴더로 가서 결과를 확인합니다.
 
-![1](https://github.com/LulinPollux/dataset-downloader/blob/master/img/1.jpg)
+![1](https://github.com/LulinPollux/dataset-groundtruth/blob/master/img/1.jpg)
 
-![2](https://github.com/LulinPollux/dataset-downloader/blob/master/img/2.jpg)
+![2](https://github.com/LulinPollux/dataset-groundtruth/blob/master/img/2.jpg)
 
 ## Functions
 
