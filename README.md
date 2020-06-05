@@ -44,9 +44,9 @@
 
 3. 결과 이미지가 저장된 폴더로 가서 결과를 확인합니다.
 
-![1](https://github.com/LulinPollux/dataset-groundtruth/blob/master/img/1.jpg)
+![1](./img/1.jpg)
 
-![2](https://github.com/LulinPollux/dataset-groundtruth/blob/master/img/2.jpg)
+![2](./img/2.jpg)
 
 ## Functions
 
@@ -71,16 +71,16 @@
   - Windows10 20H1 (Cross platform)
   - Miniconda
 - Setting up develop environment
-  1. Anaconda 또는 Miniconda가 설치되어 있는지 확인하세요.
-  2. 새 가상환경을 만들고 위의 라이브러리를 설치하세요.
-  3. 리포지토리를 클론, 포크하거나 압축파일로 코드를 다운로드하세요.
-  4. IDE 또는 텍스트 에디터로 다운로드한 파일을 여세요.
-  5. 코딩 시작~!
+  1. Make sure you have Anaconda or Miniconda installed.
+  2. Create a new virtual environment and install the above library.
+  3. Download the code to your repository as a clone, fork or ZIP file.
+  4. Open the downloaded file with your IDE or text editor.
+  5. Start coding~!
 
 ## Developer information and credits
 
 - Developer
-  - Lulin - [Github 프로필](https://github.com/LulinPollux), kistssy+dev@gmail.com
+  - Lulin - [Github Profile](https://github.com/LulinPollux), kistssy+dev@gmail.com
 
 ## Contribution method
 
