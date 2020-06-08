@@ -18,6 +18,13 @@
   1. Object Detection
      - 정답 데이터에 있는 bounding box 좌표를 사용하여 이미지에 box를 그린다.
 
+## Build Status
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/LulinPollux/dataset-groundtruth)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2f1302e30fcb43e78b643b723b7361c4)](https://www.codacy.com/manual/Lulin/dataset-groundtruth?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LulinPollux/dataset-groundtruth&amp;utm_campaign=Badge_Grade)
+![GitHub last commit](https://img.shields.io/github/last-commit/LulinPollux/dataset-groundtruth)
+![GitHub](https://img.shields.io/github/license/LulinPollux/dataset-groundtruth)
+
 ## How to Install
 
 1. Anaconda 또는 Miniconda가 설치되어 있는지 확인하세요.
