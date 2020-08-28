@@ -14,7 +14,7 @@ import tqdm
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, default='../../data/voc', help='Path to voc dataset')
 parser.add_argument('--dataset_download', type=bool, default=False, help='Whether to download the dataset.')
-parser.add_argument("--save_folder", type=str, default='../../voc_grundtruth', help='Path to saving result folder')
+parser.add_argument("--save_folder", type=str, default='../../data/voc_grundtruth', help='Path to saving results')
 args = parser.parse_args()
 print(args)
 
